@@ -1,0 +1,102 @@
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    border:none
+  }
+  .hiddenDiv{
+    display:none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight:bold;
+  }
+  .showDiv{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #0000ff;
+    cursor:pointer;
+    font-weight:bold;
+    font-size: 22px;
+  }
+  cell{
+    height:200px;
+    background: #0000ff;
+    cursor:pointer;
+    font-weight:bold;
+    font-size: 22px;
+  }
+  
+     .blue{
+    background: #0000ff;
+    cursor:pointer;
+    font-weight:bold;
+    font-size: 22px;
+    min-height:200px;
+  }      
+  .headerColumn{
+    font-weight:bold;
+    font-size: 18pt;
+    color:white;
+    text-align:center;
+    border: 1px outset;
+  }
+  .questionColumn{
+    cursor:pointer;
+    border: 1px outset;
+    text-align:center;
+    font-weight:bold;
+    font-size: 28pt;
+  }
+  .questionColumnHighlight{
+    cursor:pointer;
+    border: 1px outset;
+    text-align: center;
+    background: #00aaff;
+    font-weight:bold;
+    font-size: 28pt;
+  }
+  
+  .questionColumnComplete{
+    border: 1px outset;
+    text-align:center;
+  }
+  /* Extended CSS by James "Jamie" Arthur Johnson johns2ja@jmu.edu */
+  body { 
+  font-family: Cambria, Arial;
+  color: #f1f1f1;
+  }
+  .cell {
+  padding:5px;
+  }
+  .innercell {
+  border:5px solid #f1f1f1; 
+  padding:5px 16px 16px 16px;
+  text-align:center;
+  vertical-align:middle;
+  text-transform: uppercase;
+  height: 100px;
+  overflow: hidden;
+  }
+  .colhead {
+  position: relative; 
+  font-size: 1.5em;
+  height: 100px;
+  top: 20px;
+  }
+  .dollar{font-size:2em;}
+  .question,.answer {font-size:2em; text-transform:uppercase; display: none; }
+  #qscreen {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 10000px;
+  width: 100%;
+  background: #0000ff;
+  z-index: 999;
+  text-align: center;
+  }
+  #qscreen p { padding: 0 10% 0 10%; }
